@@ -10,9 +10,10 @@ output "rg_server_address_prefix1" {
   value = azurerm_resource_group.My_ResourceGroup1.web_server_address_prefix
 }
 
-variable "web_server_vnet1" {
+output "web_server_vnet1" {
   value = azurerm_resource_group.My_ResourceGroup1.web_server_vnet1
 }
+
 
 
 

@@ -4,3 +4,7 @@ resource_prefix           = "ana-web-server" #nameoftheresourceprefixes
 web_server_address_space  = "1.0.0.0/22"
 web_server_address_prefix = "1.0.1.0/24"
 web_server_name           = "ana-web01" #nameoftheresource
+sql_server_name           = "terraform-sqlserver-010-Ana"
+sql_database_name         = "ProductsDB-Ana"
+sql_admin_login           = "user01"
+sql_admin_password        = "@Aa123456789!"

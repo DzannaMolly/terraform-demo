@@ -50,3 +50,42 @@ variable "subnet_id_ip" {
   type = string
 }
 
+variable "sql_server_name1" {
+  type        = string
+  description = "SQL Server instance name in Azure"
+}
+
+variable "sql_database_name1" {
+  type        = string
+  description = "SQL Database name in Azure"
+}
+
+variable "sql_admin_login1" {
+  type        = string
+  description = "SQL Server login name in Azure"
+}
+
+variable "sql_admin_password1" {
+  type        = string
+  description = "SQL Server password name in Azure"
+}
+
+variable "endpoint_name1" {
+  type = string
+}
+
+variable "endpoint_location1" {
+  type = string
+}
+
+variable "endpoint_virtual_network_name1" {
+  type = string
+}
+
+variable "endpoint_address_prefixes1" {
+  type = string
+}
+
+variable "enforce_private_link_endpoint_network_policies" {
+  enforce_private_link_endpoint_network_policies = true
+}
