@@ -58,7 +58,7 @@ module "sql-database" {
 module "endpoint" {
   source                                         = ".//modules/network/endpoint"
   name                                           = var.endpoint.name
-  resource_group_name                            = azurerm_resource_group.My_ResourceGroup1.name
+  # resource_group_name                            = azurerm_resource_group.My_ResourceGroup1.name
   virtual_network_name                           = var.web_server_vnet1.name
   address_prefixes                               = var.endpoint.address_prefixes
   enforce_private_link_endpoint_network_policies = true

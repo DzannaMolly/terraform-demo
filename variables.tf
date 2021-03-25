@@ -86,6 +86,6 @@ variable "endpoint_address_prefixes1" {
   type = string
 }
 
-variable "enforce_private_link_endpoint_network_policies" {
-  enforce_private_link_endpoint_network_policies = true
-}
+# variable "enforce_private_link_endpoint_network_policies" {
+#   enforce_private_link_endpoint_network_policies = true
+# }
